@@ -65,28 +65,5 @@ num45 = 96232
 num45 *= 4212
 print(num45)
 
-print = "Hello World"
-print("variable")
-print("Hello World")
-print("This is an indented line")
-undeclared_variable = 3
-print(undeclared_variable)
-print("Hello World")
-x = 10
-y = 5
-print(x + y)
-def my_function():
- 
-print("Unclosed string")
-print("Escaped quote" )
-True = 5
-print(True)
-# Missing comment symbol
-#This is a comment
-print("No colon in if statement")
-def add(a, b):
- a + b
-print("Empty statement after variable declaration")
-
 
 
