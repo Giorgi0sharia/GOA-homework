@@ -1,0 +1,54 @@
+body {
+
+    background-color: navy;
+
+}
+
+#id1 {
+    color: white; 
+    text-align:left; 
+    font-size: 20px;
+}
+
+div p b{
+    color:navy;
+}
+
+#id4 {
+    background-color: lightblue;
+    color: white;  
+    font-size: 20px;
+}
+
+#id6 {
+    font-size: 17px;
+    color:bisque;
+    text-align: center;
+}
+
+#id7 {
+    font-size: 13px;
+    color:lightskyblue;
+    text-align: center;
+}
+
+#id8 {
+    font-size: 50px;
+    color:bisque;
+    text-align: center;
+}
+
+#id9 {
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    background-color: blue;
+    border-color: blue;
+}
+#id10 {
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    background-color: navy;
+    border-color: blue;
+}
