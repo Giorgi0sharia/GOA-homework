@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(102, 102, 102);
+}
+
+header {
+    background-color: black;
+    color: white;
+    width:1487px;
+    margin-top: -10;
+    margin-left: -10;
+}
+
+#id5 {
+    width:100px;
+    float: left;
+
+}
+div {
+    font-size: 20;
+    text-align: center;
+    color: white;
+    margin-top: 25;
+}
+
+#id3 {
+    border:black dotted;
+    border-width: 5;
+    margin-top:50;
+    margin-left:100;
+    float:left;
+}
+#id4 {
+    background-color: rgb(102, 102, 102);
+    width:500;
+    height: 300;
+
+    margin-top:85;
+    margin-left:800;
+    text-align: center;
+    color:white;
+}
+#id6 {
+    background-color: rgb(102, 102, 102);
+    width:500;
+    height: 300;
+
+    margin-top:85;
+    margin-left:100;
+    text-align: center;
+    color:white;
+    ;
+
+}
+#id7 {
+    border:black dotted;
+    border-width: 5;
+    margin-top:50;
+    margin-right:800;
+    float:right;
+}
+
+#id8 {
+    border:black dotted;
+    border-width: 5;
+    margin-top:-750;
+    margin-right:80;
+    float:right;
+    width: 600;
+    height: 400;
+    float:right;
+}
+#id9 {
+    background-color: rgb(102, 102, 102);
+    width:500;
+    height: 300;
+
+    margin-top:-300;
+    margin-right:100;
+    text-align: center;
+    color:white;
+    float: right;
+}
+#id10 {
+    border:black dotted;
+    border-width: 5;
+    margin-top:-250;
+    margin-right:800;
+    float:right;
+    width: 600;
+    height: 400;
+    float:right;
+}
+#id11 {
+    margin-top: 650;
+}
+#id12 {
+    background-color: rgb(102, 102, 102);
+    width:500;
+    height: 300;
+
+    margin-top:0;
+    margin-right:100;
+    text-align: center;
+    color:white;
+    float: left;
+}
+#id13 {
+    border:black dotted;
+    border-width: 5;
+    margin-top:0;
+    margin-right:100;
+    float:right;
+    width: 600;
+    height: 400;
+}
+#id14 {
+    background-color: black;
+    color: white;
+    width:1487px;
+    margin-top: 500;
+    margin-left: -10;
+    height: 175;
+    text-align: center;
+}
+#id15 {
+    width:100;
+    float:right;
+    margin-right: 100;
+    margin-top: -25;
+}
+#id16 {
+    font-size: 20px;
+    text-align: right;
+    background-color:rgb(230, 229, 229);
+    border:black dotted ;
+}
+#id17 {
+    size: 100px;
+    text-align: right;
+    margin-left: 600;
+}
+#id18 {
+    font-size: 20px;
+    text-align: right;
+    background-color:rgb(230, 229, 229);
+    border:black dotted ;
+}
+#id19 {
+    width:100px;
+    float: left;
+    margin-top:-100px;
+}
