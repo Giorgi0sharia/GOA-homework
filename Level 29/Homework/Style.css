@@ -1,0 +1,53 @@
+
+
+#id1 {
+    color:rgb(255,255,255)
+}
+#id2 {
+    color:rgb(2,244,245)
+}
+#id3 {
+    color:rgb(55,255,0)
+}
+#id4{
+    color:rgb(255,25,255)
+}
+#id5{
+    color:rgb(5,0,255)
+}
+
+
+
+black-button {
+    color:black;
+}
+
+#id6 {
+    color:blue;
+}
+
+blue-button {
+    
+    color:red;
+}
+
+#id7 {
+    color:rgb(255,255,255);
+    background-color:rgb(2,244,245) ;
+}
+#id8 {
+    color:rgb(2,244,245);
+    background-color:rgb(55,255,0) ;
+}
+#id9 {
+    color:rgb(55,255,0);
+    background-color:rgb(255,25,255) ;
+}
+#id10{
+    color:rgb(255,25,255);
+    background-color:rgb(5,0,255) ;
+}
+#id11{
+    color:rgb(5,0,255);
+    background-color:rgb(242, 255, 0) ;
+}
