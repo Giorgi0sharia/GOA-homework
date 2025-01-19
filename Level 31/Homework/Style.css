@@ -1,0 +1,124 @@
+#id1 {
+    color:rgb(255, 0, 255);
+    background-color:rgb(255, 255, 255);
+}
+#id2 {
+    color:rgb(255, 0, 0);
+    background-color:rgb(0, 255, 0);
+}
+#id3 {
+    color:rgb(0, 0, 255);
+    background-color:rgb(255, 0, 255);
+}
+
+#id4 {
+    color:rgb(255, 0, 55);
+    background-color:rgb(0, 0, 0);
+}
+
+#id5 {
+    color:rgb(255, 255, 0);
+    background-color:rgb(0, 255, 255);
+}
+
+#id6 {
+    color:rgb#00FF00;
+    background-color:rgb#990099;
+}
+#id7 {
+    color:rgb#FFFFFF;
+    background-color:rgb#0000FF;
+}
+#id8 {
+    color:rgb#FF0000;
+    background-color:rgb#00FFFF;
+}
+
+#id9 {
+    color:rgb#FF0099;
+    background-color:#AF00FF ;
+}
+
+#id10 {
+    color:rgb#FF9900;
+    background-color: #FFFF00;
+}
+
+#id11 {
+    width: 1000px;;
+    height:1000px;
+    background-color:#00FF00 ;
+}
+
+#id12 {
+    width:20%;
+    height:15%;
+    background-color: #000000;
+}
+
+#id13 {
+    height:200px;
+    width:200px;
+    background-color: #FFFFFF;
+
+}
+#id14 {
+    height:200px;
+    width:200px;
+    background-color:#0000FF;
+
+}
+#id15 {
+    height:200px;
+    width:200px;
+    background-color:#00FF00;
+
+}
+#id16 {
+    height:200px;
+    width:200px;
+    background-color:#AF00FF;
+
+}
+#id17 {
+    height:200px;
+    width:200px;
+    background-color:#FF9900;
+
+}
+#id18 {
+    height:200px;
+    width:200px;
+    background-color:#FF0099;
+
+}
+#id19 {
+    height:200px;
+    width:200px;
+    background-color:#990099;
+
+}
+#id20 {
+    height:200px;
+    width:200px;
+    background-color:#FFFF00;
+
+}
+#id21 {
+    height:200px;
+    width:200px;
+    background-color:#FF0099;
+
+}
+#id22 {
+    height:200px;
+    width:200px;
+    background-color:#00FF00;
+
+}
+#id23 {
+    height:200px;
+    width:200px;
+    background-color:#FFFFFF;
+
+}

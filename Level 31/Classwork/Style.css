@@ -1,0 +1,25 @@
+
+#id1 {
+    color:rgb#00FF00;
+    background-color:rgb#FF00FF;
+}
+#id2 {
+    color:rgb#000000;
+    background-color:rgb#0000FF;
+}
+#id3 {
+    color:rgb#FFFFFF;
+    background-color:rgb#00FFFF;
+}
+
+#id4 {
+    width:70%;
+    height:600px;
+    background-color:#AF00FF ;
+}
+
+#id5 {
+    width:17,5%;
+    height:60px;
+    background-color: #FFFF00;
+}
