@@ -1,0 +1,65 @@
+p {
+    text-decoration: underline solid black;
+}
+h1 {
+    text-decoration: overline solid black;
+}
+span {
+    text-decoration: line-through solid black;
+}
+h2 {
+    text-decoration: overline underline solid black;
+}
+a {
+    text-decoration: dashed underline solid black;
+}
+#id1 {
+    text-decoration: wavy black;
+}
+nav {
+    text-transform: uppercase;
+}
+#Shadow-basic-paragraph {
+    text-shadow: 10px 10px;
+    text-decoration: none;
+}
+#Shadow-bold-paragraph {
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+}
+#Shadow-blur-paragraph {
+    text-shadow: 2px 2px 3px black;
+    text-decoration: none;
+    
+}
+#Shadow-color-paragraph {
+    text-shadow: 2px 2px 3px red;
+    text-decoration: none;
+
+}
+
+@font-face {
+    font-family:serif;
+    font-style:normal;
+    font-weight: 300px;
+    font-display: swap;
+    src: url("SmoochSans-light.ttf") format("opentype")
+
+}
+@font-face {
+    font-family:sans-serif;
+    font-style:normal;
+    font-weight: 300px;
+    font-display: swap;
+    src: url("NotoSerifTodhri-Regular.ttf") format("opentype")
+
+}
+
+@font-face {
+    font-family:sans-serif;
+    font-style:normal;
+    font-weight: 300px;
+    font-display: swap;
+    src: url("LexendGiga-VariableFont_wght") format("opentype")
+
+}

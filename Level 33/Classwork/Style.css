@@ -1,0 +1,42 @@
+#id1 {
+    text-decoration: dotted underline;
+    text-align:right;
+}
+#id2 {
+    text-decoration: dotted line-through;
+    text-align:center;
+}
+#id3 {
+    text-align:left;
+    text-decoration:overline red double;
+}
+#id4 {
+    text-decoration: solid underline;
+    text-align:center;
+}
+#id5 {
+    text-decoration: dotted line-through green;
+    text-align:right;
+}
+#id6 {
+    text-decoration: solid line-through;
+    text-align:left;
+}
+#id7 {
+    text-decoration:overline solid;
+    text-align:left;
+}
+#id8 {
+    text-decoration:overline solid green;
+    text-align:right;
+}
+#id9 {
+    text-decoration:overline solid grey;
+    text-align:center;
+}
+#id10 {
+    text-decoration:underline dotted green;
+    text-align:right;
+}
+
+
