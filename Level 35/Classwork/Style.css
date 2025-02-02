@@ -1,0 +1,56 @@
+#id1:hover {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(100,100,100)
+}
+#id1:active {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(100,100,255)
+}
+
+#id2:hover {
+    font-weight: 200;
+    font-size: 11px;
+    color:rgb(100,255,100)
+}
+#id2:active {
+    font-weight: 100;
+    font-size: 12px;
+    color:rgb(100,255,255)
+}
+
+#id3:hover {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(255,100,255)
+}
+#id3:active {
+    font-weight: 300;
+    font-size: 17px;
+    color:rgb(100,0,255)
+}
+#id4:hover {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(100,100,100)
+}
+#id4:active {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(100,100,255)
+}
+#id5:hover {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(0,100,10)
+}
+#id5:active {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(255,100,255)
+}
+
+table td tr {
+    border:15px solid green;
+}

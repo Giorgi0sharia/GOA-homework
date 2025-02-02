@@ -1,0 +1,19 @@
+#id1 {
+    font-weight: bold;
+    font-size: 17px;
+    color:rgb(0,255,255);
+    text-decoration: none;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+#id1:hover {
+    font-weight: 800;
+    font-size: 17px;
+    color:rgb(100,100,100);
+    text-decoration: underline;
+    background-color: chartreuse;
+}
+#id1:visited {
+    color:blueviolet
+}
