@@ -1,0 +1,92 @@
+
+
+
+#id1  tr:nth-child(1) {
+    border:solid green;
+    background-color: green;
+}
+#id1  tr:nth-child(2), #id1  tr:nth-child(4){
+    border:20px solid rgba(255, 255, 255, 0.796);
+    background-color: rgba(255, 255, 255, 0.796);
+}
+#id1  tr:nth-child(3){
+    border:20px solid grey;
+    background-color: grey;
+}
+
+#id2  tr:nth-child(1) {
+    border:solid red;
+    background-color: red;
+}
+#id2  tr:nth-child(2), #id2  tr:nth-child(4){
+    border:20px solid white;
+    background-color: white;
+}
+#id2  tr:nth-child(3), #id2  tr:nth-child(5){
+    border:20px solid grey;
+    background-color: grey;
+}
+
+#id3  tr:nth-child(1) {
+    border:solid green;
+    background-color: green;
+}
+#id3  tr:nth-child(2), #id3  tr:nth-child(4){
+    border:20px solid white;
+    background-color: white;
+}
+#id3  tr:nth-child(3), #id3  tr:nth-child(5){
+    border:20px solid grey;
+    background-color: grey;
+}
+#id4 tr:nth-child(1) {
+    border:solid blue;
+    background-color: blue;
+}
+#id4  tr:nth-child(2), #id3  tr:nth-child(4){
+    border:20px solid white;
+    background-color: white;
+}
+#id4  tr:nth-child(3), #id3  tr:nth-child(5){
+    border:20px solid grey;
+    background-color: grey;
+}
+#id5 tr:nth-child(1) {
+    border:solid yellow;
+    background-color: yellow;
+}
+#id5  tr:nth-child(2), #id3  tr:nth-child(4){
+    border:20px solid white;
+    background-color: white;
+}
+#id5  tr:nth-child(3), #id3  tr:nth-child(5){
+    border:20px solid grey;
+    background-color: grey;
+}
+
+#id6 {
+    list-style:none
+}
+
+li {
+    color: black;
+}
+#id7:nth-child(odd) {
+    color: red;
+}
+#id7:nth-child(even) {
+    color: blue;
+}
+
+#id8:nth-of-type(3n) {
+    color: red;
+}
+
+#id9 {
+    list-style:circle
+}
+
+#id10:nth-child(first),#id10:nth-child(last) {
+
+    font-weight: bold;
+}

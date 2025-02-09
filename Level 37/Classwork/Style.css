@@ -1,0 +1,18 @@
+table, td, tr {
+    border:solid black;
+}
+
+
+
+table  tr:nth-child(1) {
+    border:20px solid green;
+    background-color: green;
+}
+table  tr:nth-child(2), table  tr:nth-child(4){
+    border:20px solid grey;
+    background-color: grey;
+}
+table  tr:nth-child(3) table  tr:nth-child(4){
+    border:20px solid white;
+    background-color: white;
+}
