@@ -1,0 +1,23 @@
+.rotate {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.rotate:active {
+    transform: rotate(30deg); 
+}
+
+
+.block {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    transition: font-size 1s, color 2s, background-color 2s;
+}
+
+.block:active {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
