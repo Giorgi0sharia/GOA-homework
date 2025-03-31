@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.dice-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+}
+
+.dice {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: absolute;
+}
+
+.side-1 {
+    top: 80px;
+    left: 80px;
+}
+
+.side-2 {
+    top: 20px;
+    left: 80px;
+}
+
+.side-3 {
+    top: 140px;
+    left: 80px;
+}
+
+.side-4 {
+    top: 80px;
+    left: 20px;
+}
+
+.side-5 {
+    top: 80px;
+    left: 140px;
+}
+
+.side-6 {
+    top: 80px;
+    left: 80px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.top-left {
+    top: 10%;
+    left: 10%;
+}
+
+.top-center-left {
+    top: 10%;
+    left: 25%;
+}
+
+.top-center-right {
+    top: 10%;
+    right: 25%;
+}
+
+.top-right {
+    top: 10%;
+    right: 10%;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+    bottom: 10%;
+    left: 10%;
+}
+
+.bottom-center-left {
+    bottom: 10%;
+    left: 25%;
+}
+
+.bottom-center-right {
+    bottom: 10%;
+    right: 25%;
+}
