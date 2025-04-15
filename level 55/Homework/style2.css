@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "article nav ads"
+    "footer footer footer";
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  height: 100vh;
+  background: white;
+}
+
+.grid-container > * {
+  background-color: gold;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.header {
+  grid-area: header;
+}
+
+.article {
+  grid-area: article;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+.footer {
+  grid-area: footer;
+}
