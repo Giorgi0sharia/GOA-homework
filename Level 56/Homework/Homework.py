@@ -125,7 +125,7 @@ while True:
         break
 
 # 27) Print all elements of a list
-items = ["apple", "banana", "cherry"]
+items = ["giorgi", "GOA", "caraml"]
 for item in items:
     print(item)
 
@@ -143,7 +143,7 @@ my_list.append("d")
 print(my_list)
 
 # 31) Remove an element
-my_list = ["apple", "banana", "cherry"]
+my_list = ["aaa", "GOA", "banana"]
 my_list.remove("banana")
 print(my_list)
 
@@ -174,7 +174,7 @@ print(squares)
 def greet(name):
     print(f"Hello, {name}!")
 
-greet("Alice")
+greet("giorgi")
 
 # 38) Function to add two numbers
 def add(a, b):
@@ -245,7 +245,7 @@ b = {3, 4, 5}
 print(a | b)
 
 # 52) Create and print dictionary
-d = {"name": "Alice", "age": 25}
+d = {"name": "giorgi", "age": 16}
 print(d)
 
 # 53) Access value by key

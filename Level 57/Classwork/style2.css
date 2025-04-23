@@ -1,0 +1,21 @@
+
+  .div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+
+  .div2 {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+
+  @media (max-width: 800px) {
+    .parent {
+      flex-direction: column; 
+    }
+  }

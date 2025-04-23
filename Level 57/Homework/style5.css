@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #0078d4;
+  color: white;
+  padding: 20px;
+  width: 250px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header input {
+  padding: 10px;
+  width: 300px;
+}
+
+.header .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.header button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.projects, .announcements, .trending {
+  margin-bottom: 20px;
+}
+
+.project-card, .announcement-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trending-item {
+  background: #e6f7ff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}

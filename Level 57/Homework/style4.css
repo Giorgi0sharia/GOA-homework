@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 5px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.grid-item {
+  background-color: #ccc; 
+}
+
+.item12 { grid-column: 1 / span 12; grid-row: 1; background-color: #2962ff; }
+.item6a { grid-column: 1 / span 6; grid-row: 2; background-color: #2962ff; }
+.item6b { grid-column: 7 / span 6; grid-row: 2; background-color: #2962ff; }
+.item4a { grid-column: 1 / span 4; grid-row: 3; background-color: #2962ff; }
+.item4b { grid-column: 5 / span 4; grid-row: 3; background-color: #2962ff; }
+.item4c { grid-column: 9 / span 4; grid-row: 3; background-color: #2962ff; }
+.item3a { grid-column: 1 / span 3; grid-row: 4; background-color: #2962ff; }
+.item3b { grid-column: 4 / span 3; grid-row: 4; background-color: #2962ff; }
+.item3c { grid-column: 7 / span 3; grid-row: 4; background-color: #2962ff; }
+.item3d { grid-column: 10 / span 3; grid-row: 4; background-color: #2962ff; }
+.item2a { grid-column: 1 / span 2; grid-row: 5; background-color: #2962ff; }
+.item2b { grid-column: 3 / span 2; grid-row: 5; background-color: #2962ff; }
+.item2c { grid-column: 5 / span 2; grid-row: 5; background-color: #2962ff; }
+.item2d { grid-column: 7 / span 2; grid-row: 5; background-color: #2962ff; }
+.item2e { grid-column: 9 / span 2; grid-row: 5; background-color: #2962ff; }
+.item2f { grid-column: 11 / span 2; grid-row: 5; background-color: #2962ff; }
+.item1 { grid-column: 1 / span 1; grid-row: 6; background-color: #2962ff; }
