@@ -1,0 +1,38 @@
+
+<html>
+<head>
+</head>
+<body>
+    <h1 id="fullNameDisplay">Your name will appear here</h1>
+    <p id="messagePara">Message will go here</p>
+
+    <button onclick="favoriteHobby()">Favorite Hobby</button><br><br>
+    <button onclick="showFullName()">Enter Full Name</button><br><br>
+    <button onclick="enterMessage()">Enter a Message</button><br><br>
+    <button onclick="favoriteEmoji()">Favorite Emoji</button><br><br>
+    <button onclick="setPageTitle()">Set Page Title</button><br><br>
+
+    <hr>
+
+    <!--6 -->
+    <form onsubmit="showInputValue(event)">
+        <label>Enter something: <input type="text" id="inputText"></label>
+        <button type="submit">Show Alert</button>
+    </form><br>
+
+    <!--7 -->
+    <form onsubmit="changeBackgroundColor(event)">
+        <label>Select Background Color: <input type="color" id="colorPicker"></label>
+        <button type="submit">Change Color</button>
+    </form><br>
+
+    <!--8 -->
+    <form onsubmit="displayFullNameInH1(event)">
+        <input type="text" id="firstName" placeholder="First Name">
+        <input type="text" id="lastName" placeholder="Last Name">
+        <button type="submit">Display Full Name</button>
+    </form>
+
+    <script src="form-script.js"></script>
+</body>
+</html>
