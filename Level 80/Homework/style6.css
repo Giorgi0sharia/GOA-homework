@@ -1,0 +1,129 @@
+/* ძირითადი ფერების ცვლადები */
+:root {
+  --bg-light: #f2f2f2;
+  --bg-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+  --accent: #b30000;
+  --card-bg-light: #fff;
+  --card-bg-dark: #1e1e1e;
+}
+
+/* ძირითადი body სტილები */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-light);
+  color: var(--text-light);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ღამის რეჟიმი */
+.dark-mode {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* გვერდის ზედა ჰედერი */
+header {
+  background: var(--accent);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* ღამის/დღის გადართვის ღილაკი */
+.toggle-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  z-index: 1000;
+}
+
+/* სექციის სათაური */
+h2.section-title {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  color: var(--accent);
+}
+
+/* თამაშების ბარათების კონტეინერი */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 1rem;
+  padding: 0 2rem 2rem;
+}
+
+/* თამაშის ბარათი */
+.game-card {
+  background: var(--card-bg-light);
+  border: 2px solid var(--accent);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, border-width 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ღამის რეჟიმისთვის ბარათის ფონი */
+.dark-mode .game-card {
+  background: var(--card-bg-dark);
+}
+
+/* მაუსის მიმტანისას ზომის გაზრდა და საზღვრის გამასუქება */
+.game-card:hover {
+  transform: scale(1.05);
+  border-width: 4px;
+}
+
+/* თამაშის სურათის სტილი */
+.game-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+/* თამაშის ტექსტური ინფორმაცია */
+.game-info {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-info h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.game-info p {
+  flex-grow: 1;
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+}
+
+/* ლინკის ღილაკი */
+.game-info a {
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.game-info a:hover {
+  background-color: #e60000;
+}

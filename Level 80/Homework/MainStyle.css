@@ -1,0 +1,135 @@
+/* ფერის სქემა: შავი, წითელი და ოქროსფერი */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background: linear-gradient(to right, #8b0000, #ff0000);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.about {
+  background: #111;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.2em;
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 900px;
+  margin: 10px auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  color: red;
+  margin-top: 50px;
+}
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1a1a1a;
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 6px solid crimson;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0 0 15px crimson;
+  background-color: #2a2a2a;
+}
+
+.review img {
+  width: 220px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.review-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.review-content h2 {
+  color: crimson;
+  margin-top: 0;
+}
+
+.rating {
+  font-size: 1.2em;
+  color: gold;
+}
+
+.game-list {
+  background: #111;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.game-list h2 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.game-list ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.game-list li {
+  margin: 8px 0;
+}
+
+footer {
+  background-color: #8b0000;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
