@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials Grid Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 20px;
+      margin: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      padding: 20px;
+      border-radius: 15px;
+      color: white;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .purple {
+      background-color: purple;
+    }
+
+    .grey {
+      background-color: rgb(103, 103, 103);
+    }
+
+    .light {
+      background-color: rgb(157, 157, 156);
+      color: black;
+    }
+
+    .blue {
+      background-color: black;
+    }
+
+    .grayish {
+      background-color: rgb(153, 153, 152);
+      color: black;
+    }
+
+    .photo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .photo img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .qoute {
+      font-size: 16px;
+      opacity: 0.9;
+      margin-bottom: 10px;
+    }
+
+    .des {
+      font-size: 13px;
+      opacity: 0.8;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    @media (min-width: 900px) {
+      .grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+          "purple purple grey light"
+          "blue blue grayish grayish";
+      }
+
+      .purple { grid-area: purple; }
+      .grey { grid-area: grey; }
+      .light { grid-area: light; }
+      .blue { grid-area: blue; }
+      .grayish { grid-area: grayish; }
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="purple card">
+      <div class="photo">
+        <img src="image-daniel.jpg" alt="Daniel" />
+        <div>
+          <div class="name">Daniel Clifford<br />Verified Graduate</div>
+        </div>
+      </div>
+      <div class="qoute">I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</div>
+      <div class="des">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best—and most grueling—time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</div>
+    </div>
+
+    <div class="grey card">
+      <div class="photo">
+        <img src="image-jonathan.jpg" alt="Jonathan" />
+        <div>
+          <div class="name">Jonathan Walters<br />Verified Graduate</div>
+        </div>
+      </div>
+      <div class="qoute">The team was very supportive and kept me motivated</div>
+      <div class="des">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</div>
+    </div>
+
+    <div class="light card">
+      <div class="photo">
+        <img src="image-jeanette.jpg" alt="Jeanette" />
+        <div>
+          <div class="name">Jeanette Harmon<br />Verified Graduate</div>
+        </div>
+      </div>
+      <div class="qoute">An overall wonderful and rewarding experience</div>
+      <div class="des">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</div>
+    </div>
+
+    <div class="blue card">
+      <div class="photo">
+        <img src="image-patrick.jpg" alt="Patrick" />
+        <div>
+          <div class="name">Patrick Abrams<br />Verified Graduate</div>
+        </div>
+      </div>
+      <div class="qoute">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.</div>
+      <div class="des">“ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”</div>
+    </div>
+
+    <div class="grayish card">
+      <div class="photo">
+        <img src="image-kira.jpg" alt="Kira" />
+        <div>
+          <div class="name">Kira Whittle<br />Verified Graduate</div>
+        </div>
+      </div>
+      <div class="qoute">Such a life-changing experience. Highly recommended!</div>
+      <div class="des">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my development experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”</div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
